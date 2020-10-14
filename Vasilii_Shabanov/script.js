@@ -119,7 +119,7 @@ function countDown(num) {
     }, 1000);
 }
 
-console.log(countDown(3)); // 3, 2, 1, 0
+countDown(3); // 3, 2, 1, 0
 
 // 10) Write a polyfill for a .bind() function and save it in `Function.prototype.myBind()`
 
